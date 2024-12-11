@@ -20,6 +20,8 @@ bash
 Copy code
 git clone https://github.com/your-username/noteFlowchatSystem.git
 cd noteFlowchatSystem
+
+
 2. Configure the Database
 Make sure you have PostgreSQL running locally or configure the application-dev.properties file to connect to an existing database.
 
@@ -28,12 +30,20 @@ properties
 Copy code
 spring.datasource.url=jdbc:postgresql://localhost:5432/flowchat1
 spring.datasource.username=postgres
+
 spring.datasource.password=postgres
+
 spring.datasource.driver-class-name=org.postgresql.Driver
+
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
 spring.jpa.generate-ddl=true
+
 spring.jpa.show-sql=true
+
 spring.jpa.properties.hibernate.hbm2ddl.auto=update
+
+
 3. Build the Application
 Use Maven to build the project:
 
