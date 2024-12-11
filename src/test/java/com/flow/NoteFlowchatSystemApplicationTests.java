@@ -1,12 +1,11 @@
 package com.flow;
 
-import static org.junit.Assert.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.UUID;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -15,7 +14,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import com.flow.flowchat.Flowchat;
 import com.flow.flowchatService.FlowchatService;
-
 @SpringBootTest
 class NoteFlowchatSystemApplicationTests {
 	
